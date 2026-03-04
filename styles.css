@@ -1,0 +1,83 @@
+/*
+Color scheme
+1: #F8F9FA, rgb(248, 249, 250)
+2: #E9ECEF, rgb(233, 236, 239)
+3: #DEE2E6, rgb(222, 226, 230)
+4: #CED4DA, rgb(206, 212, 218)
+5: #ADB5BD, rgb(173, 181, 189)
+6: #6C757D, rgb(108, 117, 125)
+7: #495057, rgb(73, 80, 87)
+8: #343A40, rgb(52, 58, 64)
+9: #212529, rgb(33, 37, 41)
+*/
+body {
+    font-family: Helvetica;
+    background-color: #F8F9FA;
+    color: #212529;
+    display: grid;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+.container {
+    display: grid;
+    grid-template-columns: 170px auto;
+    grid-template-rows: auto;
+    column-gap: 40px;
+}
+.container div {
+    margin-left: 10px;
+}
+nav {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: #212529;
+}
+.footer {
+    background-color: #ADB5BD;
+    color: #212529;
+    text-align: center;
+    height: 120px;
+}
+.negmargin {
+    margin-top: -4px;
+}
+h3 {
+    margin-bottom: -4px;
+}
+header{
+    width: 1900px;
+    height: 100px;
+}
+a:hover {
+    color: lightskyblue;
+}
+a:active {
+    color: red;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#codinglang{
+    width: 400px;
+    height: 200px;
+}
+
+@media screen and (max-height: 800px){
+    .container {
+        display: grid;
+        grid-template-rows: 130px auto;
+        grid-template-columns: auto;
+    }
+    
+    * {
+    max-width: 100vw;
+    overflow: hidden;
+    }
+}
