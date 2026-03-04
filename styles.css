@@ -78,6 +78,7 @@ a:active {
     
     * {
     max-width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     }
 }
