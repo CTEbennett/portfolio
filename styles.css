@@ -15,6 +15,7 @@ body {
     background-color: #F8F9FA;
     color: #212529;
     display: grid;
+    overflow-x: hidden;
 }
 a:link {
     color: blue;
@@ -41,7 +42,7 @@ nav {
     color: #212529;
     text-align: center;
     height: 120px;
-    width: 99vw;
+    width: 98vw;
 }
 .negmargin {
     margin-top: -4px;
@@ -73,6 +74,9 @@ a:active {
 .certImg{
     width: 600px;
     height: 400px;
+}
+iframe {
+    border: none;
 }
 @media screen and (max-width: 450px){
     .container {
