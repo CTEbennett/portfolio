@@ -34,7 +34,7 @@ a:visited {
 }
 nav {
     font-family: "Times New Roman";
-    font-size: 20px;
+    font-size: 25px;
     color: #212529;
 }
 .footer {
@@ -42,7 +42,7 @@ nav {
     color: #212529;
     text-align: center;
     height: 120px;
-    width: 98vw;
+    width: 99vw;
 }
 .negmargin {
     margin-top: -4px;
